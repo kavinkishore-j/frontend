@@ -1,4 +1,4 @@
-const RAW_API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+const RAW_API_URL = import.meta.env.VITE_API_URL || 'https://backend-1-td8n.onrender.com' || 'http://localhost:3000';
 
 // normalize base URL: remove trailing slash if present
 function normalizeBaseUrl(url: string) {
